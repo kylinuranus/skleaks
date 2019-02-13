@@ -45,6 +45,11 @@
 //    _timer = nil;
 }
 
+- (void)removeFromParentViewController
+{
+    
+}
+
 - (void)dealloc
 {
     [_timer invalidate];
